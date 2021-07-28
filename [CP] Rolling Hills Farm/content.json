@@ -1,0 +1,113 @@
+{
+    "Format": "1.18",
+    "ConfigSchema": {
+        "FarmToReplace": {
+            "AllowValues": "Standard, Forest, Riverland, Hilltop, Wilderness",
+            "Default": "Forest"
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "file",
+            "Value": "Farm",
+            "When": {
+                "FarmToReplace": "Standard"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Foraging",
+            "When": {
+                "FarmToReplace": "Forest"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Fishing",
+            "When": {
+                "FarmToReplace": "Riverland"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Mining",
+            "When": {
+                "FarmToReplace": "Hilltop"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Combat",
+            "When": {
+                "FarmToReplace": "Wilderness"
+            }
+        }
+    ],
+    "Changes": [
+        //maps
+        {
+            "Action": "Load",
+            "Target": "Maps/{{file}}",
+            "FromFile": "assets/farm.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmCave",
+            "FromFile": "assets/farmcave.tbin",
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm_Greenhouse_Dirt",
+            "FromFile": "assets/Farm_Greenhouse_Dirt.tbin",
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        //bus stop warps
+        {
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "MapProperties", "Warp" ],
+                    "Value": "0 22 Farm 99 20 0 23 Farm 99 20 0 24 Farm 99 20 0 25 Farm 99 20",
+                    "Delimiter": " "
+
+                }
+            ],
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        //down arrow
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/font_bold",
+            "FromFile": "assets/arrow.png",
+            "ToArea": {
+                "X": 88,
+                "Y": 80,
+                "Width": 8,
+                "Height": 16
+            },
+            "When": {
+                "LocationName": "Farm"
+            }
+        },
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "rhf.0": "Jeff",
+                "rhf.1": "` Mounatin^> Farm Cave^@ {{FarmName}} Farm",
+                "rhf.2": "@ {{FarmName}} Farm^> Pelican Town",
+                "rhf.3": "` {{FarmName}} Farm^{ Cindersap Forest"
+            }
+        }
+    ]
+}

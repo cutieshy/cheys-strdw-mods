@@ -1,0 +1,11 @@
+{
+  "BrownCow": "HerefordBrown",
+  "WhiteCow": "SpottedBlack",
+  "Goat": "DeerCream",
+  "Sheep": "AlpacaBlonde",
+  "Pig": "SolidPink",
+  "Ostrich": "Grey",
+  "ShopIcons": "True",
+  "WoolRecolor": "True",
+  "ClothRecolor": "True"
+}

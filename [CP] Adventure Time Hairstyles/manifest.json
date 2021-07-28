@@ -1,0 +1,12 @@
+{
+    "Name": "Adventure Time Hairstyles",
+    "Author": "peroxidewren",
+    "Version": "4.2",
+    "Description": "Adds Adventure Time themed hairstyles!",
+    "UniqueID": "peroxidewren.cpadvtime",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:958" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

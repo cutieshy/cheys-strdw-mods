@@ -1,0 +1,45 @@
+﻿{
+	"Name": "Super Magic Chest",
+	"Description": "A magical container with mysterious properties.",
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 279,
+				"Count": 1
+			},
+			{
+				"Object": 872,
+				"Count": 50
+			}
+		],
+		"IsDefault": true
+	},
+	"EnableWithMod": "furyx639.ExpandedStorage",
+	"ReserveExtraIndexCount": 16,
+	"NameLocalization": {
+		//"es": "", //Spanish
+		//"ko": "마법 상자",
+		//"de": "Magishe Truhe", //German
+		"fr": "Super Coffre Magique", //French
+		//"hu": "", //Hungarian
+		//"it": "", //Italian
+		//"ja": "", //Japanese
+		//"pt": "", //Portuguese
+		//"ru": "", //Russian
+		//"tr": "", //Turkish
+		//"zh": "魔法宝箱", //Chinese (Simplified)
+	},
+	"DescriptionLocalization": {
+		//"es": "", //Spanish
+		//"ko": "물건을 보관할 수 있는 마법의 상자.",
+		//"de": "Eine magische Truhe, um alle deine Gegenstände zu lagern.", //German
+		"fr": "Un coffre magique aux propriétés mystérieuses.", //French
+		//"hu": "", //Hungarian
+		//"it": "", //Italian
+		//"ja": "", //Japanese
+		//"pt": "", //Portuguese
+		//"ru": "", //Russian
+		//"tr": "", //Turkish
+		//"zh": "一个神奇的魔法宝箱，存储容量无限。", //Chinese (Simplified)
+	}
+}

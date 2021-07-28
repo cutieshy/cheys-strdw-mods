@@ -1,0 +1,133 @@
+{
+    "ExpandedStorage": [
+        {
+            "StorageName": "Large Chest",
+            "Capacity": 72,
+            "CanCarry": true
+        },
+        {
+            "StorageName": "Magic Chest",
+            "Capacity": -1,
+            "CanCarry": true,
+            "AccessCarried": true,
+            "ShowSearchBar": true,
+            "Tabs": ["Crops", "Seeds", "Materials", "Cooking", "Fishing", "Equipment", "Clothing", "Misc"]
+        },
+        {
+            "StorageName": "Super Magic Chest",
+            "Capacity": -1,
+            "CanCarry": true,
+            "AccessCarried": true,
+            "ShowSearchBar": true,
+            "Tabs": ["Crops", "Seeds", "Materials", "Cooking", "Fishing", "Equipment", "Clothing", "Misc"],
+            "SpecialChestType": "JunimoChest"
+        },
+        {
+            "StorageName": "Bag of Holding",
+            "Capacity": -1,
+            "CanCarry": true,
+            "AccessCarried": true,
+            "VacuumItems": true,
+            "ShowSearchBar": true,
+            "IsPlaceable": false,
+            "AllowList": [
+                "category_greens",
+                "category_flowers",
+                "category_fruits",
+                "category_vegetable",
+                "category_monster_loot",
+                "category_metal_resources",
+                "category_building_resources",
+                "category_minerals",
+                "category_crafting",
+                "category_gem",
+                "category_junk"
+            ]
+        }
+    ],
+    "StorageTabs": [
+        {
+            "TabName": "Clothing",
+            "TabImage": "Shirts.png",
+            "AllowList": [
+                "category_clothing",
+                "category_boots",
+                "category_hat"
+            ]
+        },
+        {
+            "TabName": "Cooking",
+            "TabImage": "Cooking.png",
+            "AllowList": [
+                "category_syrup",
+                "category_artisan_goods",
+                "category_ingredients",
+                "category_sell_at_pierres_and_marnies",
+                "category_sell_at_pierres",
+                "category_meat",
+                "category_cooking",
+                "category_milk",
+                "category_egg"
+            ]
+        },
+        {
+            "TabName": "Crops",
+            "TabImage": "Crops.png",
+            "AllowList": [
+                "category_greens",
+                "category_flowers",
+                "category_fruits",
+                "category_vegetable"
+            ]
+        },
+        {
+            "TabName": "Equipment",
+            "TabImage": "Tools.png",
+            "AllowList": [
+                "category_equipment",
+                "category_ring",
+                "category_tool",
+                "category_weapon"
+            ]
+        },
+        {
+            "TabName": "Fishing",
+            "TabImage": "Fish.png",
+            "AllowList": [
+                "category_bait",
+                "category_fish",
+                "category_tackle",
+                "category_sell_at_fish_shop"
+            ]
+        },
+        {
+            "TabName": "Materials",
+            "TabImage": "Minerals.png",
+            "AllowList": [
+                "category_monster_loot",
+                "category_metal_resources",
+                "category_building_resources",
+                "category_minerals",
+                "category_crafting",
+                "category_gem"
+            ]
+        },
+        {
+            "TabName": "Misc",
+            "TabImage": "Misc.png",
+            "AllowList": [
+                "category_big_craftable",
+                "category_furniture",
+                "category_junk"
+            ]
+        },
+        {
+            "TabName": "Seeds",
+            "TabImage": "Seeds.png",
+            "AllowList": [
+                "category_seeds",
+                "category_fertilizer"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Rolling Hills Farm",
+    "Author": "DaisyNiko",
+    "Version": "1.0.4",
+    "UniqueID": "DaisyNiko.RollingHills",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:5393"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

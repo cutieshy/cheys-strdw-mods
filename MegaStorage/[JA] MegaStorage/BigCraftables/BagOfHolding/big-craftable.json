@@ -1,0 +1,49 @@
+﻿{
+	"Name": "Bag of Holding",
+	"Description": "It's a lot bigger on the inside.",
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 74,
+				"Count": 1
+			},
+			{
+				"Object": 872,
+				"Count": 50
+			},
+			{
+				"Object": 852,
+				"Count": 5
+			}
+		],
+		"IsDefault": true
+	},
+	"EnableWithMod": "furyx639.ExpandedStorage",
+	"ReserveExtraIndexCount": 5,
+	"NameLocalization": {
+		//"es": "", //Spanish
+		//"ko": "",
+		//"de": "", //German
+		//"fr": "", //French
+		//"hu": "", //Hungarian
+		//"it": "", //Italian
+		//"ja": "", //Japanese
+		//"pt": "", //Portuguese
+		//"ru": "", //Russian
+		//"tr": "", //Turkish
+		//"zh": "" //Chinese (Simplified)
+	},
+	"DescriptionLocalization": {
+		//"es": "", //Spanish
+		//"ko": "",
+		//"de": "", //German
+		//"fr": "", //French
+		//"hu": "", //Hungarian
+		//"it": "", //Italian
+		//"ja": "", //Japanese
+		//"pt": "", //Portuguese
+		//"ru": "", //Russian
+		//"tr": "", //Turkish
+		//"zh": "" //Chinese (Simplified)
+	}
+}

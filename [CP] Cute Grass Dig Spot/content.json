@@ -1,0 +1,12 @@
+{
+   "Format": "1.19.0",
+   "Changes": [
+   {
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspot.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+    }
+]
+}

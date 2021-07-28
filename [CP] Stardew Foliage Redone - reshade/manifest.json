@@ -1,0 +1,18 @@
+{
+  "Name": "Stardew Foliage Redone Reshade",
+	"Author": "DustBeauty",
+	"Version": "3.3",
+	"UniqueID": "stardewfoliageredonereshade",
+    "Description": "Stardew Foliage Redone_Natrue Toned Map Recolour - https://www.nexusmods.com/stardewvalley/mods/4705",
+    "UpdateKeys": [ "Nexus:4705" ],
+    "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+    	"MinimumVersion": "1.5",
+		},	
+"Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+   },                                       
+],
+}

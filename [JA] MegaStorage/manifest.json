@@ -1,0 +1,11 @@
+{
+	"Name": "Mega Storage (JA)",
+	"Author": "furyx639",
+	"Version": "2.3.0",
+	"Description": "Adds Mega Storage Chests to the game.",
+	"UniqueID": "furyx639.MegaStorage",
+	"UpdateKeys": [ "Nexus:7431" ],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}
